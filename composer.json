@@ -3,9 +3,9 @@
 	"type": "phpbb-extension",
 	"description": "Control forum indexing by search engines via meta robots tag",
 	"homepage": "https://github.com/nicebb/metarobots",
-	"version": "0.1",
+	"version": "0.2",
 	"time": "2016-03-28",
-	"license": "GPL-3",
+	"license": "GPL-2.0",
 	"authors": [{
 			"name": "Victor Safronov",
 			"email": "vitek@vitek.tomsk.ru",
