@@ -1,0 +1,15 @@
+<fieldset>
+	<legend>{L_ACP_METAROBOTS_SETTINGS}</legend>
+	<dl>
+		<dt><label for="metarobots_indexing_enable">{L_METAROBOTS_INDEXING_ENABLE}{L_COLON}</label><br /><span>{L_METAROBOTS_INDEXING_ENABLE_EXPLAIN}</span></dt>
+		<dd><label><input type="radio" name="metarobots_indexing_enable" value="1"<!-- IF METAROBOTS_INDEXING_ENABLE eq 1 --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+			<label><input type="radio" name="metarobots_indexing_enable" value="-1"<!-- IF METAROBOTS_INDEXING_ENABLE eq -1 --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			<label><input type="radio" name="metarobots_indexing_enable" value="0"<!-- IF METAROBOTS_INDEXING_ENABLE eq 0 --> checked="checked"<!-- ENDIF --> /> {L_GENERAL_SETTINGS}</label></dd>
+	</dl>
+	<dl>
+		<dt><label for="metarobots_following_enable">{L_METAROBOTS_FOLLOWING_ENABLE}{L_COLON}</label><br /><span>{L_METAROBOTS_FOLLOWING_ENABLE_EXPLAIN}</span></dt>
+		<dd><label><input type="radio" name="metarobots_following_enable" value="1"<!-- IF METAROBOTS_FOLLOWING_ENABLE eq 1 --> checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+			<label><input type="radio" name="metarobots_following_enable" value="-1"<!-- IF METAROBOTS_FOLLOWING_ENABLE eq -1 --> checked="checked"<!-- ENDIF --> /> {L_NO}</label>
+			<label><input type="radio" name="metarobots_following_enable" value="0"<!-- IF METAROBOTS_FOLLOWING_ENABLE eq 0 --> checked="checked"<!-- ENDIF --> /> {L_GENERAL_SETTINGS}</label></dd>
+	</dl>
+</fieldset>

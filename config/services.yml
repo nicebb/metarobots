@@ -1,0 +1,10 @@
+services:
+    nicebb.metarobots.listener:
+        class: nicebb\metarobots\event\listener
+        arguments:
+            - @config
+            - @template
+            - @request
+            - @user
+        tags:
+            - { name: event.listener }
